@@ -1,0 +1,106 @@
+.L1 {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  margin-top: 8%;
+  @media only screen and (max-width: 320px){
+    margin-top: 30px;
+  }
+  @media only screen and (max-width: 375px) and (min-width: 321px){
+    margin-top: 30px;
+  }
+  @media only screen and (max-width: 425px) and (min-width: 376px){
+    margin-top: 30px;
+  }
+  @media only screen and (max-width: 768px) and (min-width: 426px){
+    margin-top: 30px;
+  }
+  
+
+  @media screen and (max-width: 425px) {
+    height: 130px;
+  }
+}
+
+.Logo {
+  font-family: 'Product Sans', sans-serif;
+  font-size: 0;
+  span {
+    font-size: 85px;
+    font-weight:normal;
+
+    @media only screen and (max-width: 320px){
+      font-size: 30px;
+    }
+    @media only screen and (max-width: 375px) and (min-width: 321px){
+      font-size: 36px;
+    }
+    @media only screen and (max-width: 425px) and (min-width: 376px){
+      font-size: 38px;
+    }
+    @media only screen and (max-width: 768px) and (min-width: 426px){
+      font-size: 70px;
+    }
+  }
+}
+
+.elogo {
+  display: inline-block;
+  transform: rotate(-20deg);
+  color: #DB4437;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-button {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 14.5px;
+  font-weight: light;
+  text-decoration: none;
+  color: #000000;
+  background-color: #F7F7F7;
+  border: 1px solid #F7F7F7;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0s, color 0.3s;
+  margin-inline: 4px;
+  margin-top: 25px;
+}
+
+.google-button:hover {
+  background-color: #F7F7F7;
+  border-color: #E0E0E0;
+}
+
+.google-button:active {
+  background-color: #2f5bb7;
+  border-color: #2f5bb7;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px; 
+  margin: 0 auto;
+  border-radius: 45px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
